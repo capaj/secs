@@ -1,6 +1,6 @@
 # secs
 
-it is [ms](https://github.com/zeit/ms), but for seconds.
+[ms](https://github.com/zeit/ms), but with built in conversion to seconds.
 
 ```js
 import ms from 'ms';

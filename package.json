@@ -1,42 +1,26 @@
 {
-  "name": "secs",
-  "version": "2.0.0",
-  "author": {
-    "name": "Shahar Talmi",
-    "email": "shahart@wix.com",
-    "url": ""
-  },
-  "main": "dist/src/index.js",
-  "files": [
-    "dist"
-  ],
+  "name": "@capaj/secs",
+  "version": "1.0.0",
+  "author": "capajj@gmail.com",
+  "license": "MIT",
+  "main": "secs.js",
   "scripts": {
-    "start": "yoshi start",
-    "pretest": "yoshi lint && yoshi build",
-    "build": ":",
-    "test": "yoshi test",
-    "release": "yoshi release"
+    "test": "ava"
   },
-  "dependencies": {
-    "ms": "^0.7.2"
+  "engines": {
+    "node": ">=4"
+  },
+  "peerDependencies": {
+    "ms": "*"
   },
   "private": false,
   "devDependencies": {
-    "babel-preset-es2015": "^6.9.0",
-    "babel-preset-stage-0": "^6.5.0",
-    "chai": "^3.5.0",
-    "yoshi": "latest"
-  },
-  "babel": {
-    "presets": [
-      "es2015",
-      "stage-0"
-    ]
-  },
-  "eslintConfig": {
-    "extends": "wix/esnext"
+    "ava": "^0.23.0"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
+  },
+  "ava": {
+    "files": ["*.spec.js"]
   }
 }
