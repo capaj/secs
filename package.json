@@ -1,6 +1,6 @@
 {
   "name": "@capaj/secs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "capajj@gmail.com",
   "license": "MIT",
   "main": "secs.js",
@@ -13,7 +13,6 @@
   "peerDependencies": {
     "ms": "*"
   },
-  "private": false,
   "devDependencies": {
     "ava": "^0.23.0"
   },
@@ -22,5 +21,17 @@
   },
   "ava": {
     "files": ["*.spec.js"]
-  }
+  },
+  "description":
+    "[ms](https://github.com/zeit/ms), but with built in conversion to seconds.",
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/capaj/secs.git"
+  },
+  "keywords": ["ms", "time", "units"],
+  "bugs": {
+    "url": "https://github.com/capaj/secs/issues"
+  },
+  "homepage": "https://github.com/capaj/secs#readme"
 }
